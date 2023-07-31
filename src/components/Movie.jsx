@@ -22,7 +22,7 @@ export default function Movie({
       );
       setFavoriteMovies(updatedFavorites);
     } else {
-      setFavoriteMovies([...favoriteMovies, newFav]);
+      setFavoriteMovies([newFav, ...favoriteMovies]);
     }
   }
 
