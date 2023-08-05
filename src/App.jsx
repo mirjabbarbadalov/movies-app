@@ -25,7 +25,7 @@ export default function App() {
   }
 
   useEffect(() => {
-    getMovies(`http://www.omdbapi.com/?s=${movieInput}&apikey=738237a0`);
+    getMovies(`https://www.omdbapi.com/?s=${movieInput}&apikey=738237a0`);
   }, [movieInput]);
 
   // console.log(favoriteMovies);
